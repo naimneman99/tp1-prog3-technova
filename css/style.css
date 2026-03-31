@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.strong-font {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.styled-font {
+  font-family: "Rubik Mono One", monospace;
+}
+
+h1.strong-font {
+  font-size: 2em;
+}
+
+div>h2 {
+  font-size: 1.6em;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: #FCF4ED;
+  width: 100%;
+  height: auto;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 4px;
+}
+
+#pulse-logo {
+  width: 24vh;
+  height: auto;
+}
+
+.logo {
+  width: 6vh;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  position: relative;
+}
+
+.flex-container.centered {
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image-text {
+  position: absolute;
+  color: white;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+#gym-image {
+  width: 100vw;
+  height: 60vh;
+  filter: brightness(0.3);
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  z-index: -1
+}
+
+#shop-offer {
+  background-color: #05DF72;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  position: relative;
+  z-index: 1
+}
+
+#offer-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 8px;
+  width: 100%;
+  height: 100%;
+}
+
+
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+
+}
